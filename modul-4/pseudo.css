@@ -1,0 +1,86 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial;
+    padding: 1.5rem;
+}
+
+h2 {
+    margin: 1.5rem 0 0.75rem;
+    color: #2C3E50;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 0.6rem 1rem;
+    border: 1px solid #ddd;
+}
+
+
+tr:nth-child(even) td {
+    background: #EBF5FB;
+}
+
+tr:hover td {
+    background: #D6EAF8;
+}
+
+
+.list-bersih {
+    list-style: none;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.list-bersih li {
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid #ddd;
+}
+
+.list-bersih li:not(:last-child) {
+    border-bottom: 1px solid #ddd;
+}
+
+.list-bersih li:last-child {
+    border-bottom: none;
+}
+
+
+.grid-kartu {
+    display: grid;
+    grid-template-columns:
+        repeat(3, 1fr);
+    gap: 0.75rem;
+    margin-top: 0.5rem;
+}
+
+.grid-kartu div {
+    padding: 1.5rem;
+    background: #F2F3F4;
+    border-radius: 6px;
+    text-align: center;
+}
+
+
+.grid-kartu div:nth-child(3n) {
+    background: #2E86C1;
+    color: white;
+    font-weight: bold;
+}
+
+.grid-kartu div:first-child {
+    background: #27AE60;
+    color: white;
+}
