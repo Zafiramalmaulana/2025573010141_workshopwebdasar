@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Futsal Store</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body class="bg-gradient-to-br from-gray-100 to-gray-200 dark:from-slate-900 dark:to-slate-800 text-gray-800 dark:text-white transition">
+    <header class="bg-black/90 backdrop-blur text-white shadow">
+      <div class="container-custom flex items-center justify-between py-4">
+        <h1 class="text-xl font-bold tracking-wide">FutsalStore</h1>
+
+        <nav class="hidden md:flex gap-6">
+          <a href="#" class="hover:text-red-400">Beranda</a>
+          <a href="#" class="hover:text-red-400">Produk</a>
+          <a href="#" class="hover:text-red-400">Promo</a>
+          <a href="#" class="hover:text-red-400">Kontak</a>
+        </nav>
+
+        <button id="toggleDark" class="btn-outline" aria-label="Toggle dark mode"></button>
+      </div>
+    </header>
+
+    <section class="container-custom py-12 grid md:grid-cols-2 gap-10 items-center">
+      <div>
+        <h2 class="section-title">Sepatu Futsal Terbaik Untuk Performa Maksimal</h2>
+        <p class="section-subtitle">
+          Nyaman, ringan, dan stylish untuk pemain futsal profesional maupun pemula.
+        </p>
+        <a href="#" class="btn-primary">Belanja Sekarang</a>
+      </div>
+
+      <div>
+        <img
+          src="LOGO.png"
+          alt="Futsal Store"
+          class="w-full shadow-xl hover:scale-105 transition"
+        />
+      </div>
+    </section>
+
+    <section class="container-custom pb-12">
+      <h2 class="section-title">Produk Unggulan</h2>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <article class="card">
+          <div class="h-56 bg-gray-100 dark:bg-slate-800 rounded-xl overflow-hidden flex items-center justify-center">
+            <img src="REACTRO.png" alt="SPECS REACTRO HYDRA" class="w-full h-full object-contain p-3" />
+          </div>
+          <h3 class="font-bold mt-4">SPECS REACTRO HYDRA</h3>
+          <p class="font-semibold">Rp 700.000</p>
+          <button class="btn-primary mt-3 w-full">Beli</button>
+        </article>
+
+        <article class="card">
+          <div class="h-56 bg-gray-100 dark:bg-slate-800 rounded-xl overflow-hidden flex items-center justify-center">
+            <img src="F50.png" alt="Adidas F50 League" class="w-full h-full object-contain p-3" />
+          </div>
+          <h3 class="font-bold mt-4">Adidas F50 League</h3>
+          <p class="font-semibold">Rp 800.000</p>
+          <button class="btn-primary mt-3 w-full">Beli</button>
+        </article>
+
+        <article class="card">
+          <div class="h-56 bg-gray-100 dark:bg-slate-800 rounded-xl overflow-hidden flex items-center justify-center">
+            <img src="ORTUS.png" alt="Ortus seight sacalyst" class="w-full h-full object-contain p-3" />
+          </div>
+          <h3 class="font-bold mt-4">Ortus seight sacalyst</h3>
+          <p class="font-semibold">Rp 900.000</p>
+          <button class="btn-primary mt-3 w-full">Beli</button>
+        </article>
+
+        <article class="card">
+          <div class="h-56 bg-gray-100 dark:bg-slate-800 rounded-xl overflow-hidden flex items-center justify-center">
+            <img src="PUMA.png" alt="Puma" class="w-full h-full object-contain p-3" />
+          </div>
+          <h3 class="font-bold mt-4">Puma</h3>
+          <p class="font-semibold">Rp 800.000</p>
+          <button class="btn-primary mt-3 w-full">Beli</button>
+        </article>
+
+        <article class="card">
+          <div class="h-56 bg-gray-100 dark:bg-slate-800 rounded-xl overflow-hidden flex items-center justify-center">
+            <img src="NEO.png" alt="Mizuno Neo" class="w-full h-full object-contain p-3" />
+          </div>
+          <h3 class="font-bold mt-4">Mizuno Neo</h3>
+          <p class="font-semibold">Rp 1.000.000</p>
+          <button class="btn-primary mt-3 w-full">Beli</button>
+        </article>
+
+        <article class="card">
+          <div class="h-56 bg-gray-100 dark:bg-slate-800 rounded-xl overflow-hidden flex items-center justify-center">
+            <img src="NIKE.png" alt="Nike No Mercy" class="w-full h-full object-contain p-3" />
+          </div>
+          <h3 class="font-bold mt-4">Nike No Mercy</h3>
+          <p class="font-semibold">Rp 700.000</p>
+          <button class="btn-primary mt-3 w-full">Beli</button>
+        </article>
+      </div>
+    </section>
+
+    <footer class="bg-black dark:bg-slate-950 text-white py-6 text-center">
+      <p>© 2026 FutStore</p>
+    </footer>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
